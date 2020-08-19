@@ -1,0 +1,39 @@
+Git Merge
+
+Branches: 1.SFF-userStoryBranch     2.SFF-Release-Infinity
+
+Steps:
+
+Setup before pull request:
+------------------------------------------
+1. create new branch SFF-userStoryBranch from SFF-Release-Infinity.
+2. Do changes in SFF-userStoryBranch.
+3. push changes into SFF-userStoryBranch
+4. Open SFF-Release-Infinity [In visual studio bottom -> manage branch-> select SFF-Release-Infinity ->sync]
+5. Open back SFF-userStoryBranch[In visual studio bottom -> manage branch-> select SFF-userStoryBranch]
+6. open Team Explorer-> Branches ->Merge 
+		Merge from branch =>SFF-Release-Infinity
+		Into Current branch => SFF-userStoryBranch
+		check for checkbox [commit changes after merging]
+		Merge button. 
+
+
+Create Pull Request
+
+1. Open Github wesite.
+2. Go to SFF-Release-Infinity branch
+3. Go to Pull Request Tab.
+4. Right side click "New Pull Request" button.
+5. set base: SFF-Release-Infinity and compare: SFF-userStoryBranch
+6. click create pull request.
+7. Set appropriate message.
+
+
+
+Youtube video:
+Creating a Simple Github Pull Request
+
+Set reviewer for pull request:
+https://docs.github.com/en/enterprise/2.15/user/articles/requesting-a-pull-request-review
+
+		
